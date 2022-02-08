@@ -25,11 +25,11 @@
     top: 40%;
     width: 40%;
     height: 110px;
-    background-color: rgb(11 34 48 / 80%);
+    background-color: rgb(11 34 48 / 13%);
     font-family: "Cinzel Decorative";
 
-    font-size: min(60px, 5vw);
-    color: white;
+    font-size: 5em;
+    color: #bf331e;
     margin: auto;
     border: solid;
 
@@ -115,5 +115,10 @@ input {
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.379);
+
 }
 
+input:hover {
+    background-color: #ff2807;
+    text-decoration: underline;
+}
