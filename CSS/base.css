@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
 
 *{
     margin: 0px;
@@ -12,7 +14,7 @@
 }
 
 .back{
-    background-image: url('../img/back3.jpg');
+    background-image: url('../img/back.jpg');
     width: 100%;
     height: 580px;
     margin-top: -8px;
@@ -29,7 +31,7 @@
     font-family: "Cinzel Decorative";
 
     font-size: 5em;
-    color: #bf331e;
+    color: white;
     margin: auto;
     border: solid;
 
@@ -52,7 +54,7 @@
     background-color: #0a1d29;
     color: white;
     height: 560px;
-    box-shadow: inset 0px 6px 10px #08090d
+    box-shadow: inset 0px 6px 130px #08090d
 }
 
 #foto1 {
@@ -72,7 +74,7 @@
     right: 55px;
 }
 
-#texto1{
+#sobre-mim p{
     position: relative;
     text-align: justify;
     text-decoration: none;
@@ -81,10 +83,11 @@
     width: 650px;
 }
 
-#enfeite {
+.enfeite {
     position: relative;
     color: #bf331e;
     bottom: 20px;
+    right: 30px;
 }
 
 #informacoes {
@@ -120,5 +123,30 @@ input {
 
 input:hover {
     background-color: #ff2807;
-    text-decoration: underline;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);    
+}
+
+#conhecimentos {
+    background-color: #0a1d29;
+    height: 560px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icone-conhecimentos {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+#conhecimentos h1 {
+    position: relative;
+    color: #bf331e;
+    font-family: "Quantico" ,Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 70px;
 }
